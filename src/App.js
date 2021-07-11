@@ -4,6 +4,7 @@ import Initial from './screens/Initial';
 import Step1 from './components/Step1'
 import Step2 from './components/Step2'
 import Categories from './screens/Categories'
+import PetDetail from './components/PetDetail'
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/step1" component={Step1}/>
         <Route path="/step2" component={Step2}/>
         <Route path="/categories" component={Categories}/>
+        <Route path="/pet-detail" component={PetDetail}/>
       </Switch>
     </Router>
   );
