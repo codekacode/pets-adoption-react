@@ -2,6 +2,7 @@ import styled from "styled-components"
 import perro from "../assets/perros.png";
 import gato from "../assets/gatos.png";
 import Navbar from "../components/Navbar"
+import PetCard from "../components/PetCard"
 
 const Categories = () => {
   return (
@@ -22,6 +23,7 @@ const Categories = () => {
           <p>Gatos</p>
         </Category>
       </div>
+      <PetCard/>
       <Navbar />
     </CategoriesDiv>
   )
