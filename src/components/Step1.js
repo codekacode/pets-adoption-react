@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import next1 from '../assets/next1.svg';
 import Navbar from './Navbar';
-import {Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Step1() {
   return(

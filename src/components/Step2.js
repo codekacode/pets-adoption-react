@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import next2 from '../assets/next2.png';
 import Navbar from './Navbar';
-import { BrowserRouter as Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Step2() {
   return(
@@ -14,9 +14,11 @@ function Step2() {
           amiguitos fieles, tiernos y llenos de amor para regalar.
         </p>
       </StepInfo>
-      <StepBtn>
-        <Link to="/step2">Siguiente</Link>
-      </StepBtn>
+      <Link to="/categories">
+        <StepBtn>
+          Siguiente
+        </StepBtn>
+      </Link>
     </StepWrapper>
   )
 }
