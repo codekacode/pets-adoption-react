@@ -33,6 +33,7 @@ const CategoriesDiv = styled.div`
   div{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
   }
 `
 
