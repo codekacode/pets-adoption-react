@@ -5,7 +5,8 @@ import raza from "../assets/raza.svg";
 import edad from "../assets/edad.svg";
 import male from "../assets/male.svg";
 import map from "../assets/map-pin.png";
-import carinoso from "../assets/carinoso.png"
+import carinoso from "../assets/carinoso.png";
+import elipse from "../assets/elipse.png"
 
 const PetDetail = () => {
   return (
@@ -35,8 +36,16 @@ const PetDetail = () => {
             New Mexico 31134
           </div>
         </PetDetailPart>
+        <h3>Peronalidad</h3>
         <Personalities>
-          <h3>Peronalidad</h3>
+          <Personality>
+            <img src={carinoso} />
+            Carinoso
+          </Personality>
+          <Personality>
+            <img src={carinoso} />
+            Carinoso
+          </Personality>
           <Personality>
             <img src={carinoso} />
             Carinoso
@@ -51,10 +60,9 @@ const PetDetail = () => {
           </p>
         </History>
         <PubliBy>
-          <img />
           <div>
             <p>Publicado por</p>
-            <p>MAria Dolores</p>
+            <p>Maria Dolores</p>
           </div>
           <button>
             Contactar
@@ -112,7 +120,8 @@ const Caract = styled.div`
   }
 `
 const Personalities = styled.div`
-
+  display: flex;
+  gap: 10px;
 `
 const Personality = styled.div`
   width: 90px;
